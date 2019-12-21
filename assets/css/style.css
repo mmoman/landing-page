@@ -14,11 +14,11 @@ header{
     float: left;
     margin-top: 5px;
 }
-.logo{
+.navbar-brand{
     width: 20%;
     float: left;
 }
-.logo-img{
+.navbar-brand-img{
     height: 30px;
     width: 190px;
     margin: 5px;
@@ -26,11 +26,11 @@ header{
     -moz-transition:0.4s ease ;
     -webkit-transition: 0.4s ease;*/
 }
-.logo-img:hover{
+.navbar-brand-img:hover{
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
 }
-.nav{
+.navbar{
     width: 50%;
     float: left;
 }
@@ -53,12 +53,12 @@ nav ul li a:hover{
     border-bottom: 2px solid #057c8838;
     color: #057c8894;
 }
-.social-icon{
+.navbar-social-icon{
     width: 30%;
     float: left;
 }
 
-.social-icon .fa{
+.navbar-social-icon .fa{
     padding: 4px 8px;
     color: #ffffff;
     border-radius: 4px;
@@ -67,7 +67,7 @@ nav ul li a:hover{
     -moz-transition:0.4s ease ;
     -webkit-transition: 0.4s ease;
 }
-.social-icon .fa:hover{
+.navbar-social-icon .fa:hover{
     color: #000;
     background-color: white;
 }
