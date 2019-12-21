@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+body{}
+
+/***********Header Section Start *************/
+header{
+    width: 100%;
+    float: left;
+    margin-top: 5px;
+}
+.logo{
+    width: 20%;
+    float: left;
+}
+.logo-img{
+    height: 30px;
+    width: 190px;
+    margin: 5px;
+/*    transition: 0.4s ease;
+    -moz-transition:0.4s ease ;
+    -webkit-transition: 0.4s ease;*/
+}
+.logo-img:hover{
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+.nav{
+    width: 50%;
+    float: left;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000000b8;
+    transition: 0.4s ease;
+    -moz-transition:0.4s ease ;
+    -webkit-transition: 0.4s ease;
+}
+nav ul li a:hover{
+    border-bottom: 2px solid #057c8838;
+    color: #057c8894;
+}
+.social-icon{
+    width: 30%;
+    float: left;
+}
+
+.social-icon .fa{
+    padding: 4px 8px;
+    color: #ffffff;
+    border-radius: 4px;
+    margin-top: 8px;
+    transition: 0.4s ease;
+    -moz-transition:0.4s ease ;
+    -webkit-transition: 0.4s ease;
+}
+.social-icon .fa:hover{
+    color: #000;
+    background-color: white;
+}
+.fa.fa-facebook{
+    background-color: #3b5998;
+}
+.fa.fa-twitter{
+    background-color: #00acee;
+}
+.fa.fa-linkedin{
+    background-color: #0e76a8;
+}
+.fa.fa-google-plus{
+    background-color: #dd4b39;
+}
+.fa.fa-sign-in{
+    color: #0e76a8;
+}
+
+
+/***********Header Section End ***************/
