@@ -6,16 +6,17 @@
     width: 1140px;
     margin: 0 auto;
 }
-body{}
+body{
+    font-family: sans-serif;
+}
 
 /***********Header Section Start *************/
 header{
     width: 100%;
     float: left;
-    margin-top: 5px;
 }
 .navbar-brand{
-    width: 20%;
+    width: 25%;
     float: left;
 }
 .navbar-brand-img{
@@ -54,11 +55,12 @@ nav ul li a:hover{
     color: #057c8894;
 }
 .navbar-social-icon{
-    width: 30%;
+    width: 25%;
     float: left;
 }
 
 .navbar-social-icon .fa{
+    margin-left: 10px;
     padding: 4px 8px;
     color: #ffffff;
     border-radius: 4px;
@@ -89,3 +91,133 @@ nav ul li a:hover{
 
 
 /***********Header Section End ***************/
+
+
+/***********Carousel Section Start************/
+.carousel{
+    background-image: url(../images/carousel.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    float: left;
+    padding: 5% 0;
+}
+.carousel-info{
+    width: 40%;
+    float: left;
+    text-align: center;
+    background-color: #fafffd87;
+    padding: 80px 0;
+    border-radius: 10px;
+}
+.carousel-info h1{
+    font-size: 3em;
+    font-family: serif;
+    text-transform: uppercase;
+}
+
+/***********Carousel Section End**************/
+
+/***********Button Common Design Start********/
+.btn{
+    background-color: #338203;
+    padding: 10px 8px;
+    border: none;
+    border-radius: 5px;
+    margin: 15px 10px;
+    transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+}
+.btn:hover{
+    border-radius: 20px;
+    background-color: #0ea81394;
+}
+.btn a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    font-family: serif;
+    font-size: 1.2em;
+    transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+}
+.btn a:hover {
+    color: #7a0923;
+}
+/***********Button Common Design End*********/
+
+
+/***********Service Section Start*************/
+.service{
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+    padding-top: 10px;
+    text-align: center;
+}
+.service .fa{
+    border-radius: 50%;
+    color: #ffffff;
+    font-size: 2em;
+    padding: 20px;
+    transition: 0.8s ease;
+    -webkit-transition: 0.8s ease;
+    -moz-transition: 0.8s ease;
+}
+.service .fa:hover{
+    transform: scale(1.3);
+    color: #7a0923;
+}
+.fa.fa-check{
+    background-color: #6874e4;
+}
+.fa.fa-map-marker{
+    background-color: #009587;
+    padding: 20px 26px;
+}
+.fa.fa-money{
+    background-color: #41b644;
+}
+.fa.fa-user-plus{
+    background-color: #94e86e;
+}
+.service h3{
+    font-family: serif;
+    font-size: 1.3em;
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px;
+}
+.service-concept{
+    width: 25%;
+    float: left;
+}
+
+.service-local{
+    width: 25%;
+    float: left;
+}
+.service-financing{
+    width: 25%;
+    float: left;
+}
+.service-sign-up{
+    width: 25%;
+    float: left;
+}
+.btn-read-more{
+    font-size: 0.7em!important;
+}
+/***********Service Section End***************/
+
+/***********Service Section Start*************/
+/***********Service Section End***************/
+
+/***********Service Section Start*************/
+/***********Service Section End***************/
+
+/***********Service Section Start*************/
+/***********Service Section End***************/
