@@ -14,6 +14,9 @@ body{
 header{
     width: 100%;
     float: left;
+    position: fixed;
+    background-color: #ffffff;
+    text-align: center;
 }
 .navbar-brand{
     width: 25%;
@@ -23,9 +26,9 @@ header{
     height: 30px;
     width: 190px;
     margin: 5px;
-/*    transition: 0.4s ease;
-    -moz-transition:0.4s ease ;
-    -webkit-transition: 0.4s ease;*/
+    transition: 0.8s ease;
+    -moz-transition:0.8s ease ;
+    -webkit-transition: 0.8s ease;
 }
 .navbar-brand-img:hover{
     filter: grayscale(100%);
@@ -65,9 +68,9 @@ nav ul li a:hover{
     color: #ffffff;
     border-radius: 4px;
     margin-top: 8px;
-    transition: 0.4s ease;
-    -moz-transition:0.4s ease ;
-    -webkit-transition: 0.4s ease;
+    transition: 0.8s ease;
+    -moz-transition:0.8s ease ;
+    -webkit-transition: 0.8s ease;
 }
 .navbar-social-icon .fa:hover{
     color: #000;
@@ -155,7 +158,7 @@ nav ul li a:hover{
     width: 100%;
     float: left;
     margin-top: 10px;
-    padding-top: 10px;
+    padding: 15px 0;
     text-align: center;
 }
 .service .fa{
@@ -171,17 +174,17 @@ nav ul li a:hover{
     transform: scale(1.3);
     color: #7a0923;
 }
-.fa.fa-check{
+.service .fa.fa-check{
     background-color: #6874e4;
 }
-.fa.fa-map-marker{
+.service .fa.fa-map-marker{
     background-color: #009587;
     padding: 20px 26px;
 }
-.fa.fa-money{
+.service .fa.fa-money{
     background-color: #41b644;
 }
-.fa.fa-user-plus{
+.service .fa.fa-user-plus{
     background-color: #94e86e;
 }
 .service h3{
@@ -213,11 +216,218 @@ nav ul li a:hover{
 }
 /***********Service Section End***************/
 
-/***********Service Section Start*************/
-/***********Service Section End***************/
+/***********About Section Start*************/
+.about{
+    width: 100%;
+    float: left;
+    padding: 15px 0;
+}
+.about-info {
+    width: 40%;
+    float: left;
+    background-color: #b8ccd5;
+    margin-left: 5%;
+    padding: 15px;
+    border-radius: 3px;
+}
+.about-info h2{
+    margin: 50px 0 20px;
+    text-align: center;
+    font-family: serif;
+}
+.about-info ul{
+    list-style: none;
+}
+.about-info ul li{
+    padding: 7px 50px;
+}
+.btn-about{
+    margin: 7px 50px;
+    border: 1px groove;
+}
+.btn-about a{
+    font-size: .8em;
+}
+/***********About Section End***************/
 
-/***********Service Section Start*************/
-/***********Service Section End***************/
+/***********Blog Section Start**************/
+.blog{
+    width: 100%;
+    float: left;
+    padding: 15px 0;
+}
+.blog h1{
+    text-align: center;
+    margin: 10px 0 ;
+    color: #046956;
+    font-family: serif;
+    font-size: 2em;
+}
+.blog-left{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    border-radius: 3px;
+}
+.blog-right{
+    width: 40%;
+    float: left;
+    margin-left: 10%;
+    border-radius: 3px;
+}
+.blog h3{
+    color: #012e36de;
+    margin: 10px 0;
+    cursor: pointer;
+    height: 50px;
+    font-size: 1.2em;
+}
+.blog p{
+    color: #0000009e;
+}
+.blog .btn-read-more{
+    margin-left: 0;
+    border: 2px groove;
+}
 
-/***********Service Section Start*************/
-/***********Service Section End***************/
+/***********Blog Section End****************/
+
+/***********Achievement Section Start*************/
+.achievement{
+    width: 100%;
+    float: left;
+    padding: 15px 0;
+    background-color: #e3e3e3;
+}
+.achievement-info{
+    width: 100%;
+    text-align: center;
+    font-size: .9em;
+    font-weight: bold;
+
+}
+.achievement-info p{
+    padding: 3px;
+}
+/***********Achievement Section End***************/
+
+/***********Review Section Start*************/
+.review{
+    width: 100%;
+    float: left;
+    padding: 15px 0;
+}
+.review-info{
+    width: 100%;
+    text-align: center;
+}
+.fa.fa-star{
+    font-size: 2em;
+    font-weight: bold;
+    color: #05b078;
+}
+.fa.fa-star span{
+    color: black;
+}
+.fa.fa-star-o{
+    font-size: 2em;
+    font-weight: bold;
+    background-color: #6cd10c;
+    color: #ffffff;
+    padding: 10px;
+    margin-top: 10px;
+    transition: 0.8s ease;
+    -webkit-transition: 0.8s ease;
+    -moz-transition: 0.8s ease;
+}
+.fa.fa-star-o:hover{
+    color: #05b078;
+}
+.review-info span .fa-star-o{
+    background-color: #999999;
+}
+.review-info p{
+    font-weight: bold;
+    color: #0000009e;
+    margin-top: 10px;
+}
+
+/***********Review Section End***************/
+
+/***********Client Section Start*************/
+.client{
+    width: 100%;
+    float: left;
+    padding: 15px 0;
+    background-color: #808080;
+    text-align: center;
+}
+.client h1{
+    color: #ffffff;
+}
+.client img{
+    border-radius: 10px;
+    margin-top: 10px;
+    transition: 0.8s ease;
+    -webkit-transition: 0.8s ease;
+    -moz-transition: 0.8s ease;
+}
+.client img:hover{
+    transform: scale(1.3);
+}
+.client a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #000000bf;
+    transition: 0.8s ease;
+    -webkit-transition: 0.8s ease;
+    -moz-transition: 0.8s ease;
+}
+.client a:hover{
+    color: white;
+}
+.client-one{
+    width: 20%;
+    float: left;
+}
+.client-two{
+    width: 20%;
+    float: left;
+}
+.client-three{
+    width: 20%;
+    float: left;
+}
+.client-four{
+    width: 20%;
+    float: left;
+}
+.client-five{
+    width: 20%;
+    float: left;
+}
+/***********Client Section End***************/
+
+/***********Footer Section Start*************/
+.footer{
+    width: 100%;
+    float: left;
+    padding: 15px 0;
+    background-color: #062e38;
+}
+.footer-left{
+    width: 50%;
+    float: left;
+    text-align: center;
+    color: #ffffff;
+}
+.footer-right{
+    width: 50%;
+    float: left;
+    text-align: center;
+    color: #ffffff;
+}
+.footer p{
+    font-size: 0.9em;
+}
+/***********Footer Section End***************/
